@@ -1,0 +1,7 @@
+frase = input("Digite uma frase: ").upper().strip()
+a = frase.count("A")
+print(f"a letra A aparece {a} vezes na frase")
+primeirapos = frase.find ("A")
+print(f"primeira letra a aparece na {primeirapos} da frase")
+ultimapos = frase.rfind("A")
+print(f"e a ultima aparece na {ultimapos} posicao da frase")

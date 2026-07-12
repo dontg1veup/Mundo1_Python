@@ -1,0 +1,6 @@
+nome = input ("Qual o seu nome?".strip())
+print (f"Seu nome com tudo maiusculo eh: {nome.upper()}")
+print (f"Seu nome com tudo minusculo eh : {nome.lower()}")
+print (f"{len(nome) - nome.count(' ')}")
+listanome = nome.split()
+print (f"{len (listanome[0])}")
