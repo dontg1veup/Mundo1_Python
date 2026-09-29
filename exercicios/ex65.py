@@ -13,14 +13,13 @@ for c in range (0, quant):
             jogo.append(num)
         if cont >= 6:
             cont = 0
+            jogo.sort()
             grupojogo.append(jogo[:])
             jogo.clear()
             break
 
-
 print ("Seus jogos foram:")
 
 for jogo in grupojogo:
-    jogo.sort()
     print (jogo)
     time.sleep(1)

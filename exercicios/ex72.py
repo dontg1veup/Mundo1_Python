@@ -1,7 +1,6 @@
 soma = media = 0
 dicionario = dict ()
 galera = list ()
-2010
 
 while True:
     dicionario.clear()

@@ -1,8 +1,8 @@
-def saudacao(nome="visitante"):
-    print (f"Saudacao: {nome}")
+def area (a,b):
+    return a*b
 
-saudacao()
 
-name = input("Qual seu nome meu bom: ")
+larg = float(input("digite a largura: "))
+comp = float(input("digite a comprimento: "))
 
-saudacao(name)
+print (f" A area do terreno eh {area(larg,comp)}")
