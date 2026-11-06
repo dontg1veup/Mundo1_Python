@@ -10,7 +10,7 @@ def maior (*numeros):
     print (f"Maior eh igual a {maior}")
     
 
-maior (1,5,3)
+maior (9,5,8)
 
 
 
